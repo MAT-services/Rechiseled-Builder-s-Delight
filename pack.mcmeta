@@ -1,6 +1,7 @@
 {
     "pack": {
         "description": "Rechiseld: Builder's Delight +",
-        "pack_format": 15
+        "min_format": 9,
+        "max_format": 48
     }
 }
