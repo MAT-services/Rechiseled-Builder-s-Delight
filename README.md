@@ -2,6 +2,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="art/header-dark.png">
   <img alt="Rechiseled Builder's Delight" src="art/header-light.png">
 </picture>
+
 ![illustration](./img/industrial_block.png)
 
 # Rechiseled: Builder's Delight
