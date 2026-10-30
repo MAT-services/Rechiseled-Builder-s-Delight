@@ -1,7 +1,36 @@
-{
-    "pack": {
+{ 
+	"pack": {
         "description": "Rechiseld: Builder's Delight +",
         "min_format": 9,
         "max_format": 48
-    }
+    },
+	"modinator": {
+		"id": "rechiseledbuildersdelight", 
+		"display_name": "Rechiseld: Builder's Delight +",
+		"mod_version": "2.0.0",
+		"authors": ["MAT Services"],
+		"license": "MIT",
+		"forge_version": "[1,)", 
+		"neoforge_version": "[1,)"
+	},
+	"paths": {
+		"icon": "./pack.png",
+		"data": "./data/"
+	},
+	"dependencies": { 
+		"rechiseled": { 
+			"forge": { 
+				"type": "required", 
+				"versionRange": "[1,)", 
+				"side": "BOTH" 
+			}
+		},
+        "buildersdelight": { 
+			"forge": { 
+				"type": "required", 
+				"versionRange": "[1,)", 
+				"side": "BOTH" 
+			}
+		}
+	}
 }
